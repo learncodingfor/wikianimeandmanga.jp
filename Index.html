@@ -11,6 +11,9 @@
 </head>
 <p>ページ</p>
 <a href="about.html">約</a>
-<a href="https://pytube832.github.io/wikianime.go">English site/英語サイト</a>
+<select id="lang"><option value="1">English/英語サイト</option>
+<option value="2">日本語/Japanese site</select>
 <a href="animefanpage.html">アニメファンページを作成する</a>
 <script src="search.js"></script>
+<script>var lang = document.getElementById("lang").value;
+  if(lang.value="1"){window.location.assign("https://pytube832.github.io/wikianime.go/")}</script>
